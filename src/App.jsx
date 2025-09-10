@@ -1,5 +1,6 @@
 import Slider from './components/Slider'
 import Nav from './components/Nav'
+import Bookstory from './components/Bookstory'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div className="font-cursive relative">
       <Nav />
       <Slider />
+      <Bookstory />
     </div>
   )
 }
